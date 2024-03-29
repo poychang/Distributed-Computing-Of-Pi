@@ -1,0 +1,9 @@
+@PiCalculatorAPI_HostAddress = https://localhost:7099/api
+
+# get the result of the pi calculation
+
+GET {{PiCalculatorAPI_HostAddress}}/result
+Accept: application/json
+
+
+###
